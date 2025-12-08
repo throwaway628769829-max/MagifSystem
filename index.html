@@ -233,7 +233,7 @@
     
     // Target date: tomorrow at 13:00
     const target = new Date();
-    target.setDate(target.getDate() + 1);
+    target.setDate(target.getDate());
     target.setHours(13, 0, 0, 0);
 
     const diff = target - now;
